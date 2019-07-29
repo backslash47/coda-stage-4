@@ -1,0 +1,60 @@
+/main
+
+MNT4753-input
+MNT4753-input-large
+MNT4753-output
+MNT4753-output-large
+MNT4753-parameters
+MNT4753-parameters-large
+MNT4753_preprocessed
+
+MNT6753-input
+MNT6753-input-large
+MNT6753-output
+MNT6753-output-large
+MNT6753-parameters
+MNT6753-parameters-large
+MNT6753_preprocessed
+
+build
+
+# Test input
+tests/add_*
+tests/sub_*
+tests/mul_*
+tests/modexp_*
+tests/paillier_*
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.class
